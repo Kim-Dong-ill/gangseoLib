@@ -1,0 +1,36 @@
+.libabout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    width: 1677px;
+    height: 900px;
+    display: grid;
+    grid-template-columns: repeat(4, 400px);
+    grid-template-rows: repeat(3, 280px);
+    gap: auto;
+    justify-content: space-between;
+    align-content: space-between;
+    .box {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      height: 280px;
+      border-radius: 20px;
+      background-color: #ffffff;
+      border: 1px solid #dadada;
+      box-shadow: rgba(0, 0, 0, 0.2) 2px 4px 10px,
+        rgba(0, 0, 0, 0.15) -2px -4px 2px inset;
+      .title {
+        font-size: 36px;
+        color: #333333;
+      }
+    }
+    .box:nth-child(12) {
+      display: none;
+    }
+  }
+}

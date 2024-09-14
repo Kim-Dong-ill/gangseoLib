@@ -9,7 +9,7 @@ import "../src/assets/css/index.css";
 
 function App() {
   return (
-    <>
+    <div className="globalContainer">
       <Routes>
         <Route path="/" element={<MainPage />}></Route>
         <Route path="/chatbot" element={<Chatbot />}></Route>
@@ -17,7 +17,7 @@ function App() {
         <Route path="/libsetabout" element={<Libsetabout />}></Route>
         <Route path="/readbook" element={<Readbook />}></Route>
       </Routes>
-    </>
+    </div>
   );
 }
 
