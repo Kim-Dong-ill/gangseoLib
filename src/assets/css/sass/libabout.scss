@@ -24,13 +24,11 @@
       border: 1px solid #dadada;
       box-shadow: rgba(0, 0, 0, 0.2) 2px 4px 10px,
         rgba(0, 0, 0, 0.15) -2px -4px 2px inset;
+      cursor: pointer;
       .libAboutTitle {
         font-size: 36px;
         color: #333333;
       }
-    }
-    .box:nth-child(12) {
-      display: none;
     }
   }
 }
