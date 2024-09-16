@@ -1,7 +1,8 @@
 import React from "react";
+import MenusScrollFrame from "../../../components/MenusScrollFrame";
 
 function FacilityUse() {
-  return <div></div>;
+  return <div><MenusScrollFrame /></div>;
 }
 
 export default FacilityUse;
