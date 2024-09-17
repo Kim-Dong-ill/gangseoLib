@@ -1,8 +1,12 @@
 import React from "react";
-import MenusScrollFrame from "../../../components/MenusScrollFrame";
+import UseingInfo from "../../../components/UseingInfo";
 
 function FacilityUse() {
-  return <div><MenusScrollFrame /></div>;
+  return (
+    <div>
+      <UseingInfo />
+    </div>
+  );
 }
 
 export default FacilityUse;
