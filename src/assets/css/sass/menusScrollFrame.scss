@@ -1,0 +1,36 @@
+.menusScroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .scrollFrame {
+    width: 1680px; //나중에 100%로 수정해야함
+    height: 880px; //나중에 100%로 수정해야함
+    border-radius: 30px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 30px 0px;
+    padding: 60px 48px 60px 60px;
+    .frameInner {
+      width: 100%;
+      height: 100%;
+      overflow-y: scroll;
+      overflow-x: hidden;
+
+      // 스크롤바 스타일
+      &::-webkit-scrollbar {
+        width: 12px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background-color: #ffb1cf;
+        border-radius: 20px;
+      }
+      &::-webkit-scrollbar-track {
+        background-color: #e6e6e6;
+        border-radius: 20px;
+      }
+      .InnerContent {
+        height: 1800px;
+      }
+    }
+  }
+}

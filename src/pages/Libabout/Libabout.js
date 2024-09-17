@@ -14,17 +14,17 @@ import LibaboutBtn from "../../components/LibaboutBtn";
 
 function libabout() {
   const menuList = [
-    { title: "자료기증 관련 안내", icon: a1, link: "" },
-    { title: "와이파이 안내", icon: a2, link: "" },
-    { title: "희망도서 신청 안내", icon: a3, link: "" },
-    { title: "택배 대출 서비스", icon: a4, link: "" },
-    { title: "사물함 안내", icon: a5, link: "" },
-    { title: "대출증, 회원증 안내", icon: a6, link: "" },
-    { title: "복사, 인쇄, 출력, 스캔", icon: a7, link: "" },
-    { title: "식당, 매점 운영 안내", icon: a8, link: "" },
-    { title: "프로그램 안내", icon: a9, link: "" },
-    { title: "주차장 이용 안내", icon: a10, link: "" },
-    { title: "시설 이용 안내", icon: a11, link: "" },
+    { title: "자료기증 관련 안내", icon: a1, link: "/Donation" },
+    { title: "와이파이 안내", icon: a2, link: "/Wifi" },
+    { title: "희망도서 신청 안내", icon: a3, link: "/bookrequest" },
+    { title: "택배 대출 서비스", icon: a4, link: "/DeliveryLoan" },
+    { title: "사물함 안내", icon: a5, link: "/Locker" },
+    { title: "대출증, 회원증 안내", icon: a6, link: "/MembershipCard" },
+    { title: "복사, 인쇄, 출력, 스캔", icon: a7, link: "/Printing" },
+    { title: "식당, 매점 운영 안내", icon: a8, link: "/Cafeteria" },
+    { title: "프로그램 안내", icon: a9, link: "/Program" },
+    { title: "주차장 이용 안내", icon: a10, link: "/Parking" },
+    { title: "시설 이용 안내", icon: a11, link: "/FacilityUse" },
   ];
   return (
     <div className="background frame libabout">
