@@ -1,0 +1,16 @@
+/* Sub Layout */
+.subBgWrap {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/subBackgroung.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subWrap {
+    width: 100%;
+    height: 100%;
+}
+.subTitleWrap {
+    font-size: 56px;
+}

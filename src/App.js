@@ -1,5 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import "../src/assets/styles/style.scss";
+import MainPage from "./layout/MainPage";
 import Chatbot from "./pages/Chatbot/Chatbot";
 import Libabout from "./pages/Libabout/Libabout";
 import Libsetabout from "./pages/LibSetAbout/LibSetAbout";
@@ -16,7 +18,8 @@ import Parking from "./pages/Libabout/menus/Parking";
 import Printing from "./pages/Libabout/menus/Printing";
 import Program from "./pages/Libabout/menus/Program";
 import Wifi from "./pages/Libabout/menus/Wifi";
-import "../src/assets/css/index.css";
+import SubTest from "./pages/LibSetAbout/SubTest";
+import "../src/assets/css/index.css"
 
 function App() {
   return (
@@ -28,6 +31,8 @@ function App() {
         <Route path="/libabout" element={<Libabout />}></Route>
         <Route path="/libsetabout" element={<Libsetabout />}></Route>
         <Route path="/readbook" element={<Readbook />}></Route>
+        {/* 서브 페이지 테스트 route */}
+        <Route path="/subTest" element={<SubTest />}></Route>
 
         {/* 도서관 안내 페이지 route */}
         <Route path="/bookrequest" element={<BookRequest />}></Route>

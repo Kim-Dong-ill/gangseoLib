@@ -1,0 +1,31 @@
+@charset "utf-8";
+@import "mainLayoutStyle.scss";
+@import "subLayoutStyle.scss";
+$defualtColor: #333333;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1em;
+    color: $defualtColor;
+}
+html,
+body {
+    width: 100%;
+    height: 100vh;
+    max-width: 1920px;
+    max-height: 1200px;
+    overflow: hidden;
+    font-size: 36px;
+}
+div,
+ul,
+li {
+    padding: 0;
+    list-style: none;
+}
+img {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
