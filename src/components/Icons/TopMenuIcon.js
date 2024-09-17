@@ -1,14 +1,13 @@
 import React from "react";
-import iconBullet01 from "../../assets/images/iconBullet01.svg";
-import iconBullet02 from "../../assets/images/iconBullet02.svg";
-import iconBullet03 from "../../assets/images/iconBullet03.svg";
+
+import iconHome from "../../assets/images/iconHome.svg";
+import iconMenu from "../../assets/images/iconMenu.svg";
 
 const icons = {
-    iconBullet01,
-    iconBullet02,
-    iconBullet03,
+    iconHome,
+    iconMenu,
 };
-function Bullet({ iconName, className, ...props }) {
+function TopMenuIcon({ iconName, className, ...props }) {
     const iconSrc = icons[iconName];
     if (!iconSrc) {
         console.error(`Icon '${iconName}' not found.`);
@@ -26,4 +25,4 @@ function Bullet({ iconName, className, ...props }) {
     );
 }
 
-export default Bullet;
+export default TopMenuIcon;
