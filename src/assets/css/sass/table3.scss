@@ -1,0 +1,74 @@
+$table-width: 1500px;
+$table-height: 168px;
+$title-height: 64px;
+$content-height: $table-height - $title-height;
+$column-width: $table-width / 3;
+$border-color: #868686;
+
+.custom-table {
+    margin-left: 40px;
+    width: $table-width;
+    height: $table-height;
+    border-top: 3px solid $border-color;
+    border-collapse: collapse;
+
+    th,
+    td {
+        border: 1px solid $border-color;
+        padding: 0; // 불필요한 패딩 제거
+        vertical-align: middle; // 기존 테이블 셀의 세로 정렬 유지
+        text-align: center; // 텍스트 가로 정렬
+    }
+
+    thead {
+        height: $title-height;
+        background-color: #e3e7f0;
+
+        th {
+            width: $column-width;
+            font-size: 1.25rem;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: middle;
+            font-size: 32px;
+        }
+    }
+
+    tbody {
+        tr {
+            font-size: 32px;
+            height: $content-height / 2; // 전체 내용 높이 사용
+        }
+
+        td {
+            width: $column-width;
+            vertical-align: middle;
+        }
+
+        .content-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding: 0.5rem;
+            box-sizing: border-box;
+        }
+
+
+    }
+}
+
+.left {
+    border-left: none !important;
+}
+
+.right {
+    border-right: none !important;
+}
+
+.flexs {
+    display: flex;
+    align-items: center; // 세로 중앙 정렬
+    justify-content: center; // 가로 중앙 정렬
+}
