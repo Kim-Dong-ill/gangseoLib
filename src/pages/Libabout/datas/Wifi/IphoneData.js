@@ -1,7 +1,8 @@
 import React from "react";
+import iphoneImg01 from "../../../../assets/images/iphoneImg01.png";
+import iphoneImg02 from "../../../../assets/images/iphoneImg02.png";
 import FirestTitle from "../../../../components/TextBoxs/CntTitle";
 import CntWrap from "../../../../components/TextBoxs/CntWrap";
-
 function IphoneData() {
     return (
         <>
@@ -9,49 +10,34 @@ function IphoneData() {
                 {/* Start:큰 단락 복사 사용시 */}
                 <div className="cntWrapBox">
                     <FirestTitle>아이폰</FirestTitle>
-                    <div className="cntTextBox">
+                    <div className="cntTextHalfBox">
                         <div>
                             <li>
-                                <li className="textBoxType2">가입자격</li>
+                                <img src={iphoneImg01} alt="아이폰이미지1" />
                             </li>
-                            <li>
-                                <li className="textBoxType2">가입자격</li>
+                            <li className="textBoxType">
+                                <h4>1. 네트워크 추가</h4>
+                                <p>① 와이파이 설정화면으로 진입</p>
+                                <p>
+                                    ② <span>기타...</span> 선택
+                                </p>
                             </li>
                         </div>
                         <div>
-                            <li className="textBoxType1">가입자격</li>
-                            <li className="textBoxType2">
-                                회원가입 전용 PC(자료실 비치) or
-                                홈페이지(온라인대출회원신청)에서 본인의 개인정보
-                                입력 후(준회원) &rarr;; 자료실 직원에게
-                                준비물(회원가입시 필요한 서류)제시 &rarr;
-                                대출회원증이 발급(정회원)되며 대출가능 ※
-                                홈페이지 회원 가입 후 방문이 어려운 경우
-                                비대면자격확인인증을 통해 대출회원(정회원) 전환
-                                가능
+                            <li>
+                                <img src={iphoneImg02} alt="아이폰이미지2" />
                             </li>
-                        </div>
-                        <div>
-                            <li className="textBoxType1">가입자격</li>
-                            <li className="textBoxType2">
-                                회원가입 전용 PC(자료실 비치) or
-                                홈페이지(온라인대출회원신청)에서 본인의 개인정보
-                                입력 후(준회원) &rarr; 자료실 직원에게
-                                준비물(회원가입시 필요한 서류)제시 &rarr;
-                                대출회원증이 발급(정회원)되며 대출가능 ※
-                                홈페이지 회원 가입 후 방문이 어려운 경우
-                                비대면자격확인인증을 통해 대출회원(정회원) 전환
-                                가능
-                            </li>
-                            <li className="textBoxType3">
-                                회원가입 전용 PC(자료실 비치) or
-                                홈페이지(온라인대출회원신청)에서 본인의 개인정보
-                                입력 후(준회원) &rarr; 자료실 직원에게
-                                준비물(회원가입시 필요한 서류)제시 &rarr;
-                                대출회원증이 발급(정회원)되며 대출가능 ※
-                                홈페이지 회원 가입 후 방문이 어려운 경우
-                                비대면자격확인인증을 통해 대출회원(정회원) 전환
-                                가능
+                            <li className="textBoxType">
+                                <h4>2.프로파일 정보 입력</h4>
+                                <p>
+                                    네트워크 SSID <span>kangseo</span>
+                                </p>
+                                <p>
+                                    보안 <span>WPA/WPA2 SPK</span>
+                                </p>
+                                <p>
+                                    비밀번호 <span>gangseolib</span>
+                                </p>
                             </li>
                         </div>
                     </div>

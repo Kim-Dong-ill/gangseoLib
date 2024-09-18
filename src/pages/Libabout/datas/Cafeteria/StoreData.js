@@ -13,16 +13,12 @@ function StoredData() {
                     <FirestTitle>매점 안내</FirestTitle>
                     <div className="cntTextBox">
                         <div>
-                            <li>
-                                <li className="textBoxType2">
-                                    <span>
-                                        무인 매점으로 운영되고 있습니다.
-                                    </span>
-                                </li>
-                                <li className="textBoxType2">
-                                    <span>위치(층) : </span>강서도서관 &#62;
-                                    기타 (지하1층 식당에 위치)
-                                </li>
+                            <li className="textBoxType2">
+                                <span>무인 매점으로 운영되고 있습니다.</span>
+                            </li>
+                            <li className="textBoxType2">
+                                <span>위치(층) : </span>강서도서관 &#62; 기타
+                                (지하1층 식당에 위치)
                             </li>
                         </div>
                         <div>
