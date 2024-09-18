@@ -1,7 +1,8 @@
 import React from "react";
+import androidImg01 from "../../../../assets/images/androidImg01.png";
+import androidImg02 from "../../../../assets/images/androidImg02.png";
 import FirestTitle from "../../../../components/TextBoxs/CntTitle";
 import CntWrap from "../../../../components/TextBoxs/CntWrap";
-
 function AndroidData() {
     return (
         <>
@@ -9,49 +10,48 @@ function AndroidData() {
                 {/* Start:큰 단락 복사 사용시 */}
                 <div className="cntWrapBox">
                     <FirestTitle>안드로이드</FirestTitle>
+                    <div className="cntTextHalfBox">
+                        <div>
+                            <li>
+                                <img
+                                    src={androidImg01}
+                                    alt="안드로이드이미지1"
+                                />
+                            </li>
+                            <li className="textBoxType">
+                                <h4>1. 네트워크 추가</h4>
+                                <p>① 와이파이 설정화면으로 진입</p>
+                                <p>
+                                    ② <span>wifi 네트워크 추가</span> 선택
+                                </p>
+                            </li>
+                        </div>
+                        <div>
+                            <li>
+                                <img
+                                    src={androidImg02}
+                                    alt="안드로이드이미지2"
+                                />
+                            </li>
+                            <li className="textBoxType">
+                                <h4>2.프로파일 정보 입력</h4>
+                                <p>
+                                    네트워크 SSID <span>kangseo</span>
+                                </p>
+                                <p>
+                                    보안 <span>WPA/WPA2 SPK</span>
+                                </p>
+                                <p>
+                                    비밀번호 <span>gangseolib</span>
+                                </p>
+                            </li>
+                        </div>
+                    </div>
                     <div className="cntTextBox">
                         <div>
-                            <li>
-                                <li className="textBoxType2">가입자격</li>
-                            </li>
-                            <li>
-                                <li className="textBoxType2">가입자격</li>
-                            </li>
-                        </div>
-                        <div>
-                            <li className="textBoxType1">가입자격</li>
-                            <li className="textBoxType2">
-                                회원가입 전용 PC(자료실 비치) or
-                                홈페이지(온라인대출회원신청)에서 본인의 개인정보
-                                입력 후(준회원) &rarr;; 자료실 직원에게
-                                준비물(회원가입시 필요한 서류)제시 &rarr;
-                                대출회원증이 발급(정회원)되며 대출가능 ※
-                                홈페이지 회원 가입 후 방문이 어려운 경우
-                                비대면자격확인인증을 통해 대출회원(정회원) 전환
-                                가능
-                            </li>
-                        </div>
-                        <div>
-                            <li className="textBoxType1">가입자격</li>
-                            <li className="textBoxType2">
-                                회원가입 전용 PC(자료실 비치) or
-                                홈페이지(온라인대출회원신청)에서 본인의 개인정보
-                                입력 후(준회원) &rarr; 자료실 직원에게
-                                준비물(회원가입시 필요한 서류)제시 &rarr;
-                                대출회원증이 발급(정회원)되며 대출가능 ※
-                                홈페이지 회원 가입 후 방문이 어려운 경우
-                                비대면자격확인인증을 통해 대출회원(정회원) 전환
-                                가능
-                            </li>
                             <li className="textBoxType3">
-                                회원가입 전용 PC(자료실 비치) or
-                                홈페이지(온라인대출회원신청)에서 본인의 개인정보
-                                입력 후(준회원) &rarr; 자료실 직원에게
-                                준비물(회원가입시 필요한 서류)제시 &rarr;
-                                대출회원증이 발급(정회원)되며 대출가능 ※
-                                홈페이지 회원 가입 후 방문이 어려운 경우
-                                비대면자격확인인증을 통해 대출회원(정회원) 전환
-                                가능
+                                기종 및 OS version별 설정의 차이가 있을 수 있음.
+                                ‘wifi’ 체크 항목이 있는 단말기는 항목 체크 필요.
                             </li>
                         </div>
                     </div>

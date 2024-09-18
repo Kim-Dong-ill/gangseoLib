@@ -14,14 +14,11 @@ function RestaurantData() {
                     <FirestTitle>식당 안내</FirestTitle>
                     <div className="cntTextBox">
                         <div>
-                            <li>
-                                <li className="textBoxType2">
-                                    <span>위치(층) :</span> 강서도서관 &#62;
-                                    기타
-                                </li>
-                                <li className="textBoxType2">
-                                    <span>전화번호 :</span> 02-3219-7012
-                                </li>
+                            <li className="textBoxType2">
+                                <span>위치(층) :</span> 강서도서관 &#62; 기타
+                            </li>
+                            <li className="textBoxType2">
+                                <span>전화번호 :</span> 02-3219-7012
                             </li>
                         </div>
                         <div>
