@@ -22,6 +22,7 @@ function IphoneData() {
                                     ② <span>기타...</span> 선택
                                 </p>
                             </li>
+
                         </div>
                         <div>
                             <li>

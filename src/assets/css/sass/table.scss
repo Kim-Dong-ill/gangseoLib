@@ -1,4 +1,4 @@
-$table-width: 1560px;
+$table-width: 1500px;
 $table-height: 272px;
 $title-height: 64px;
 $content-height: $table-height - $title-height;
@@ -37,6 +37,7 @@ $border-color: #868686;
   tbody {
     tr {
       font-size: 32px;
+
       &:first-child td {
         height: $content-height / 2;
       }
