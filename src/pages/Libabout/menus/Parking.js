@@ -1,8 +1,37 @@
 import React from "react";
-import MenusScrollFrame from "../../../components/MenusScrollFrame";
+import { SubBackWrap } from "../../../components/Layout/BackWrap";
+import { SubTopMenu } from "../../../components/Layout/TopMenu";
+import ParkingData from "../datas/Parking/ParkingData";
+import SwiperComponent from "../../../components/Contents/SwiperComponent";
+import ParkingDiscountData from "../datas/Parking/ParkingDiscountData";
 
 function Parking() {
-  return <div><MenusScrollFrame /></div>;
+  const pageData = [
+    {
+      title: "주차장 안내",
+      description: "주차장 안내에 대한 설명입니다.",
+      ContentsData: <ParkingData />,
+    },
+    {
+      title: "주차요금 할인 안내",
+      description: "주차요금 할인 안내에 대한 설명입니다.",
+      ContentsData: <ParkingDiscountData />,
+    },
+  ];
+  const tabs = ["주차장 안내", "주차요금 할인 안내"];
+  return (
+    <SubBackWrap>
+      <SubTopMenu />
+      <div className="subContentWrap">
+        {/* <TabContents></TabContents> */}
+        <SwiperComponent
+          mainTitle={"와이파이 안내"}
+          tabs={tabs}
+          data={pageData}
+        />
+      </div>
+    </SubBackWrap>
+  );
 }
 
 export default Parking;

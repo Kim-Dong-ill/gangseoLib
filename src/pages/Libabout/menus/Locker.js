@@ -10,7 +10,7 @@ function Locker() {
       <SubTopMenu />
       <MenusScrollFrame children={<LockerData />} />
     </SubBackWrap>
-  )
+  );
 }
 
 export default Locker;
