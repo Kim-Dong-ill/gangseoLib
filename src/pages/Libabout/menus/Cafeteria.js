@@ -23,7 +23,6 @@ function Cafeteria() {
         <SubBackWrap>
             <SubTopMenu />
             <div className="subContentWrap">
-                {/* <TabContents></TabContents> */}
                 <SwiperComponent
                     mainTitle={"식당, 매점 운영 안내"}
                     tabs={tabs}
