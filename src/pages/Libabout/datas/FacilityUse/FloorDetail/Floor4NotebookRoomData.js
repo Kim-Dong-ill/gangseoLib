@@ -46,7 +46,7 @@ function Floor4NotebookRoomData() {
                     </div>
                     <div className="inner">
                         <li className="textBoxType2">
-                            <span>운영시간</span>
+                            <span>이용시간</span>
                         </li>
                         <li className="textBoxType3">
                             3월~10월(하절기) : 평일 (07:00~22:00) 토/일요일
