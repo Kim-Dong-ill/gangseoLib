@@ -7,6 +7,7 @@ function Donation() {
   return (
     <SubBackWrap>
       <SubTopMenu />
+      {/* <Title>자료기증 관련 안내</Title> */}
       <MenusScrollFrame children={<DonationData />} />
     </SubBackWrap>
   );
