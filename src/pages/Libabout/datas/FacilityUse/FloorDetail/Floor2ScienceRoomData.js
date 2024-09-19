@@ -9,10 +9,10 @@ function Floor2ScienceRoomData() {
             <div className="cntTextBox">
                 <div>
                     <li className="textBoxType2">
-                        <span>위치(층) :</span> 강서도서관 &#62; 4층
+                        <span>위치(층) :</span> 강서도서관 &#62; 2층
                     </li>
                     <li className="textBoxType2">
-                        <span>전화번호 :</span> 02-3219-7015
+                        <span>전화번호 :</span> 02-3219-7031
                     </li>
                 </div>
                 <div>
@@ -35,53 +35,60 @@ function Floor2ScienceRoomData() {
                 <div>
                     <div className="inner">
                         <li className="textBoxType2">
-                            <span>이용안내 </span>
+                            <span>소장자료</span>
                         </li>
                         <li className="textBoxType3">
-                            남·여 합실로 운영하고 있으며, 이용자들의 편의를
-                            위하여 좌석발급시스템을 운영하여
-                            <br />
-                            좌석표를 발급하고 있습니다.
+                            어학·문학류를 제외한 총류, 철학, 종교, 사회과학,
+                            순수과학, 기술과학, 예술, 역사분야에 관한 일반도서
+                            및 참고도서(사전, 연감, 법령집 등)가
+                            비치되어있습니다.
                         </li>
                     </div>
                     <div className="inner">
                         <li className="textBoxType2">
-                            <span>좌석수 :</span> 98석
-                        </li>
-                        <li className="textBoxType3">
-                            개인노트북 및 태블릿PC를 사용하실 수 있습니다.
-                            <br /> (단 스마트폰은 제외)
+                            <span>좌석수 :</span> 36석
                         </li>
                     </div>
                     <div className="inner">
                         <li className="textBoxType2">
-                            <span>운영시간</span>
+                            <span>이용시간</span>
                         </li>
                         <li className="textBoxType3">
-                            3월~10월(하절기) : 평일 (07:00~22:00) 토/일요일
-                            (07:00~22:00)
-                        </li>
-                        <li className="textBoxType3">
-                            11월~2월(동절기) : 평일 (08:00~22:00) 토/일요일
-                            (08:00~22:00)
+                            평일(월~금) : 09:00~20:00, 주말(토.일) : 09:00~17:00
                         </li>
                     </div>
                     <div className="inner">
                         <li className="textBoxType2">
-                            <span>이용규정</span>
+                            <span>이용안내</span>
                         </li>
                         <li className="textBoxType3">
-                            열람좌석 1인 1좌석제를 생활화합시다.
+                            자료실 내에 신간도서코너가 비치되어있으며, 노인 및
+                            저시력자를 위하여 자동독서 확대기가
+                            비치되어있습니다.
+                        </li>
+                    </div>
+                    <div className="inner">
+                        <li className="textBoxType2">
+                            <span>대출안내</span>
                         </li>
                         <li className="textBoxType3">
-                            도서관내에서는 금연구역입니다.
+                            관외대출회원 가입즉시 1인 10권이내(2주간)도서를
+                            대출할 수 있습니다.
+                        </li>
+                    </div>
+                    <div className="inner">
+                        <li className="textBoxType2">
+                            <span>자료복사</span>
                         </li>
                         <li className="textBoxType3">
-                            핸드폰은 진동으로 하시고 음식물 반입이 불가 합니다.
+                            복사요금은 A4 1매당 30원 / B4 1매당 50원 이며,
+                            흑백복사만 가능합니다.
                         </li>
                         <li className="textBoxType3">
-                            다른 이용자를 위하여 소음에 유의해야 합니다.
+                            복사는 도서관소장자료에 한하여 가능하며, 저작권에
+                            의하여 부분복사만 가능합니다.
                         </li>
+                        <li className="textBoxType3">복개인자료 복사 불허</li>
                     </div>
                 </div>
             </div>
