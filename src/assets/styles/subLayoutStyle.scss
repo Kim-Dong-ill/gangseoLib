@@ -6,14 +6,24 @@ $inactiveColor: #adadad;
 .subBgWrap {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 1200px;
     background-image: url("../images/subBackgroung.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 .subWrap {
     width: 100%;
     height: 100%;
+}
+.titleWrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 100px 20px 20px 120px;
+    width: 100%;
+    font-size: 56px;
+    white-space: nowrap;
+    font-weight: 600;
 }
 .subTitleWrap {
     position: absolute;
@@ -243,5 +253,4 @@ $inactiveColor: #adadad;
 }
 .mb-6 {
     margin-bottom: 60px !important;
-
 }
