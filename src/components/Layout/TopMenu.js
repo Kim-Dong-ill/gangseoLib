@@ -1,34 +1,39 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import TopMenuIcon from "../Icons/TopMenuIcon";
 import SmoothLink from "./SmoothLink";
 
 function DepthTopMenu() {
-    return (
-        <div className="TopMenuWrap">
-            <SmoothLink to={"/"}>
-                <div className="TopMenuHome">
-                    <TopMenuIcon iconName="iconHome" />
-                </div>
-            </SmoothLink>
+  return (
+    <div className="TopMenuWrap">
+      <SmoothLink to={"/"}>
+        <div className="TopMenuHome">
+          <TopMenuIcon iconName="iconHome" />
         </div>
-    );
+      </SmoothLink>
+    </div>
+  );
 }
 function SubTopMenu() {
-    return (
-        <div className="TopMenuWrap">
-            <SmoothLink to={"/"}>
-                <div className="TopMenuHome">
-                    <TopMenuIcon iconName="iconHome" />
-                </div>
-            </SmoothLink>
-            <Link to="/libabout">
-                <div className="TopMenu">
-                    <TopMenuIcon iconName="iconMenu" />
-                </div>
-            </Link>
+  const navigate = useNavigate();
+
+  const handleGoBack = () => {
+    navigate(-1); // 이전 페이지로 이동
+  };
+  return (
+    <div className="TopMenuWrap">
+      <SmoothLink to={"/"}>
+        <div className="TopMenuHome">
+          <TopMenuIcon iconName="iconHome" />
         </div>
-    );
+      </SmoothLink>
+      {/* <Link to="/libabout"> */}
+      <div className="TopMenu" onClick={handleGoBack}>
+        <TopMenuIcon iconName="iconMenu" />
+      </div>
+      {/* </Link> */}
+    </div>
+  );
 }
 
 export { DepthTopMenu, SubTopMenu };

@@ -36,8 +36,8 @@ function PrintingData() {
             <li className="textBoxType1">이용방법</li>
             <li className="textBoxType3">
               디지털자료실 예약PC에서 좌석 예약 후 이용
-              <br /> ( 도서관 회원 아이디로 로그인 후 PC예약 ▷ PC에서 인쇄
-              실행 ▷ 코인기에 동전/지폐 투입 ▷ 출력 )
+              <br /> ( 도서관 회원 아이디로 로그인 후 PC예약 ▷ PC에서 인쇄 실행
+              ▷ 코인기에 동전/지폐 투입 ▷ 출력 )
             </li>
           </div>
         </div>
