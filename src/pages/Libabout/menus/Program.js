@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { SubBackWrap } from "../../../components/Layout/BackWrap";
 import { SubTopMenu } from "../../../components/Layout/TopMenu";
 import MenusScrollFrame from "../../../components/MenusScrollFrame";
@@ -6,6 +6,13 @@ import Month9Data from "../datas/Program/Month9Data";
 import Title from "../../../components/Layout/Title";
 
 function Program() {
+  const months = ["9월", "10월", "11월", "12월"];
+  const [currentMonth, setCurrentMonth] = useState();
+
+  const handleMonth = (currentMonthIndex) => {
+    setCurrentMonth(currentMonthIndex);
+  };
+
   const september = [
     {
       date: "2일 (월)",
@@ -373,14 +380,277 @@ function Program() {
       program: [{ content: "2024년 하반기 나도 데일리 독자!", icon: 5 }],
     },
   ];
-  // const november
-  // const december
+  const november = [
+    {
+      date: "1일 (금)",
+      program: [{ content: "정기휴관일", icon: 1 }],
+    },
+    {
+      date: "2일 (토)",
+      program: [{ content: "2024년 하반기 나도 데일리 독자!", icon: 5 }],
+    },
+    {
+      date: "3일 (일)",
+      program: [{ content: "2024년 하반기 나도 데일리 독자!", icon: 5 }],
+    },
+    {
+      date: "4일 (월)",
+      program: [{ content: "2024년 하반기 나도 데일리 독자!", icon: 5 }],
+    },
+    {
+      date: "5일 (화)",
+      program: [
+        {
+          content: "[체험] 도서관에서 만나는 지구촌 다문화체험(6개국)",
+          icon: 5,
+        },
+        { content: "2024년 하반기 나도 데일리 독자!", icon: 5 },
+      ],
+    },
+    {
+      date: "6일 (수)",
+      program: [{ content: "2024년 하반기 나도 데일리 독자!", icon: 5 }],
+    },
+    {
+      date: "7일 (목)",
+      program: [{ content: "2024년 하반기 나도 데일리 독자!", icon: 5 }],
+    },
+    {
+      date: "8일 (금)",
+      program: [{ content: "[강좌]2024년 하반기 나도 데일리 독자!", icon: 5 }],
+    },
+    {
+      date: "9일 (토)",
+      program: [{ content: "[강좌]2024년 하반기 나도 데일리 독자!", icon: 5 }],
+    },
+    {
+      date: "10일 (일)",
+      program: [{ content: "[강좌]2024년 하반기 나도 데일리 독자!", icon: 5 }],
+    },
+    {
+      date: "11일 (월)",
+      program: [{ content: "2024년 하반기 나도 데일리 독자!", icon: 5 }],
+    },
+    {
+      date: "12일 (화)",
+      program: [{ content: "2024년 하반기 나도 데일리 독자!", icon: 5 }],
+    },
+    {
+      date: "13일 (수)",
+      program: [{ content: "2024년 하반기 나도 데일리 독자!", icon: 5 }],
+    },
+    {
+      date: "14일 (목)",
+      program: [{ content: "2024년 하반기 나도 데일리 독자!", icon: 5 }],
+    },
+    {
+      date: "15일 (금)",
+      program: [{ content: "정기휴관일", icon: 1 }],
+    },
+    {
+      date: "16일 (토)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "17일 (일)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "18일 (월)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "19일 (화)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "20일 (수)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "21일 (목)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "22일 (금)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "23일 (토)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "24일 (일)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "25일 (월)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "26일 (화)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "27일 (수)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "28일 (목)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "29일 (금)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "30일 (토)",
+      program: [{ content: "", icon: "" }],
+    },
+  ];
+
+  const december = [
+    {
+      date: "1일 (일)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "2일 (월)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "3일 (화)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "4일 (수)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "5일 (목)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "6일 (금)",
+      program: [{ content: "정기휴관일", icon: 1 }],
+    },
+    {
+      date: "7일 (토)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "8일 (일)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "9일 (월)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "10일 (화)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "11일 (수)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "12일 (목)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "13일 (금)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "14일 (토)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "15일 (일)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "16일 (월)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "17일 (화)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "18일 (수)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "19일 (목)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "20일 (금)",
+      program: [{ content: "정기휴관일", icon: 1 }],
+    },
+    {
+      date: "21일 (토)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "22일 (일)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "23일 (월)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "24일 (화)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "25일 (수)",
+      program: [{ content: "성탄절", icon: 2 }],
+    },
+    {
+      date: "26일 (목)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "27일 (금)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "28일 (토)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "29일 (일)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "30일 (월)",
+      program: [{ content: "", icon: "" }],
+    },
+    {
+      date: "31일 (화)",
+      program: [{ content: "", icon: "" }],
+    },
+  ];
+
+  const changMonth = [september, october, november, december];
+
   return (
     <SubBackWrap>
       <SubTopMenu />
       <Title>프로그램 안내</Title>
-      {/* <MenusScrollFrame children={<Month9Data children={september} />} /> */}
-      <MenusScrollFrame children={<Month9Data children={october} />} />
+      <MenusScrollFrame
+        children={
+          <Month9Data
+            children={changMonth[currentMonth]}
+            months={months}
+            handleMonth={handleMonth}
+          />
+        }
+      />
     </SubBackWrap>
   );
 }
