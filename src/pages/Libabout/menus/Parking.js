@@ -25,7 +25,7 @@ function Parking() {
       <div className="subContentWrap">
         {/* <TabContents></TabContents> */}
         <SwiperComponent
-          mainTitle={"와이파이 안내"}
+          mainTitle={"주차장 안내"}
           tabs={tabs}
           data={pageData}
         />

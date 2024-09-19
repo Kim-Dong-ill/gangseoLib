@@ -3,6 +3,7 @@ import { SubBackWrap } from "../../../components/Layout/BackWrap";
 import { SubTopMenu } from "../../../components/Layout/TopMenu";
 import MenusScrollFrame from "../../../components/MenusScrollFrame";
 import Month9Data from "../datas/Program/Month9Data";
+import Title from "../../../components/Layout/Title";
 
 function Program() {
   const september = [
@@ -377,6 +378,7 @@ function Program() {
   return (
     <SubBackWrap>
       <SubTopMenu />
+      <Title>프로그램 안내</Title>
       {/* <MenusScrollFrame children={<Month9Data children={september} />} /> */}
       <MenusScrollFrame children={<Month9Data children={october} />} />
     </SubBackWrap>

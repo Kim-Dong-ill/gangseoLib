@@ -1,11 +1,13 @@
 .menusScroll {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  // justify-content: center;
   align-items: center;
-
+  // border: 1px solid #000;
+  height: 880px;
   .scrollFrame {
-    width: 1680px; //나중에 100%로 수정해야함
-    height: 880px; //나중에 100%로 수정해야함
+    width: 1680px; //100% 수정
+    height: 880px; //100% 수정
     border-radius: 30px;
     background-color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 30px 0px;
