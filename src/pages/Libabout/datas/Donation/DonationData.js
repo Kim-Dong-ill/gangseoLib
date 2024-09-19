@@ -22,6 +22,7 @@ function DonationData() {
                         </li>
                     </div>
                 </div>
+
                 <div className="cntTextBox">
                     <div>
                         <li className="textBoxType1">기증받지 않는 자료</li>
