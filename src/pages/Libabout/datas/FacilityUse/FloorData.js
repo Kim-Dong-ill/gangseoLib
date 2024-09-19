@@ -8,6 +8,7 @@ import imgFloor6 from "../../../../assets/images/imgFloor6.png";
 import FirestTitle from "../../../../components/TextBoxs/CntTitle";
 import CntWrap from "../../../../components/TextBoxs/CntWrap";
 import Floor3DigitalRoomData from "./FloorDetail/Floor3DigitalRoomData";
+import Floor3FoyerData from "./FloorDetail/Floor3FoyerData";
 import Floor3LanguageRoomData from "./FloorDetail/Floor3LanguageRoomData";
 import Floor4LearningRoomData from "./FloorDetail/Floor4LearningRoomData";
 import Floor4NotebookRoomData from "./FloorDetail/Floor4NotebookRoomData";
@@ -63,7 +64,7 @@ const floorData = {
                 name: "휴게실",
                 coords: "761,434,787,435,787,459,817,435,839,436,838,688,761,689",
                 shape: "poly",
-                detail: () => <Floor4SelfStudyData />,
+                detail: () => <Floor3FoyerData />,
             },
         ],
     },
