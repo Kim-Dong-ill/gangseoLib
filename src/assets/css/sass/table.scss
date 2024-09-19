@@ -7,7 +7,7 @@ $border-color: #868686;
 
 .custom-table {
   margin-left: 40px;
-  width: $table-width;
+  width: $table-width !important;
   height: $table-height;
   border-top: 3px solid $border-color;
   border-collapse: collapse;

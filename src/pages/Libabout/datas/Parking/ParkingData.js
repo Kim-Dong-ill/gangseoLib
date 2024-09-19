@@ -10,12 +10,14 @@ function ParkingData() {
       <CntWrap>
         {/* Start:큰 단락 복사 사용시 */}
         <div className="cntWrapBox">
-          <div className="iconInfoContainer">
-            <img src={iconInfo} alt="" />
-            <div>
-              우리도서관의 주차장 안내실 직원 근무는 20시에 종료되며, 이후
-              주차차량에는 주차요금 익일 납부 안내문을 부착하여 드리니 이용에
-              참고하시기 바랍니다.
+          <div className="iconInfoWrap">
+            <div className="iconInfoContainer">
+              <img src={iconInfo} alt="" />
+              <div>
+                우리도서관의 주차장 안내실 직원 근무는 20시에 종료되며, 이후
+                주차차량에는 주차요금 익일 납부 안내문을 부착하여 드리니 이용에
+                참고하시기 바랍니다.
+              </div>
             </div>
           </div>
           <FirestTitle>주차장 이용 안내</FirestTitle>

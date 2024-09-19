@@ -8,7 +8,7 @@ $row-height-3: 208px; // 두 번째 열의 나머지 줄 높이
 $border-color: #868686;
 
 .custom-table {
-  width: $table-width;
+  width: $table-width !important;
   border-top: 3px solid $border-color;
   border-collapse: collapse;
 
