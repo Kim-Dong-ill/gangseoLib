@@ -1,34 +1,23 @@
-import React from 'react'
-import "../../../../../assets/css/sass/table3.scss"
+import React from "react";
 function Table3() {
     return (
-        <table className="custom-table">
+        <table className="defaultTable">
             <thead>
                 <tr>
-                    <th className="left">설치위치</th>
-                    <th>설치 기기</th>
-                    <th className="right">이용 요금</th>
+                    <th width="33.3%">설치위치</th>
+                    <th width="33.3%">설치 기기</th>
+                    <th width="33.3%">이용 요금</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td className="left">
-                        <div className="content-box flexs">
-                            디지털자료실 (3층)
-                        </div>
-                    </td>
-                    <td>
-                        <div className="flexs">스캐너 1대</div>
-                    </td>
-                    <td className="right">
-                        <div className="content-box flexs">
-                            무료
-                        </div>
-                    </td>
+                    <td>디지털자료실 (3층)</td>
+                    <td>스캐너 1대</td>
+                    <td className="right">무료</td>
                 </tr>
             </tbody>
         </table>
-    )
+    );
 }
 
-export default Table3
+export default Table3;

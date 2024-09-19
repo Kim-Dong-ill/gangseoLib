@@ -231,6 +231,9 @@ $inactiveColor: #adadad;
         &:last-child {
             border-right: none;
         }
+        &.lastTd {
+            border-right: 1px solid $secondColor;
+        }
     }
     thead {
         background: #e3e7f0;
