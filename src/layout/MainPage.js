@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import MainIcons from "../components/Icons/MainIcons";
 import { MainBackWrap } from "../components/Layout/BackWrap";
+import SmoothLink from "../components/Layout/SmoothLink";
 
 function MainPage() {
     return (
@@ -10,7 +10,7 @@ function MainPage() {
                 <h1>Main Page</h1>
                 <div className="mainMenuWrap">
                     <div className="mainMenubox">
-                        <Link to="/subTest">
+                        <SmoothLink to="/">
                             <div className="innerPoint">
                                 <div>
                                     <MainIcons iconName="mainMike" />
@@ -22,13 +22,13 @@ function MainPage() {
                                 </div>
                                 <MainIcons iconName="iconAime" />
                             </div>
-                        </Link>
+                        </SmoothLink>
                         <div className="menuShadow"></div>
                         <div className="menuLight"></div>
                     </div>
                     <div className="mainMenuRow">
                         <div className="mainMenubox">
-                            <Link to="/libabout">
+                            <SmoothLink to="/libabout">
                                 <div className="innerType2">
                                     <MainIcons iconName="mainIconLib" />
                                     <p>
@@ -36,12 +36,12 @@ function MainPage() {
                                         <br /> 안내
                                     </p>
                                 </div>
-                            </Link>
+                            </SmoothLink>
                             <div className="menuShadow"></div>
                             <div className="menuLight"></div>
                         </div>
                         <div className="mainMenubox">
-                            <Link to="/libsetabout">
+                            <SmoothLink to="/libsetabout">
                                 <div className="innerType2">
                                     <MainIcons iconName="mainIconSeat" />
                                     <p>
@@ -49,13 +49,13 @@ function MainPage() {
                                         <br /> 좌석안내
                                     </p>
                                 </div>
-                            </Link>
+                            </SmoothLink>
                             <div className="menuShadow"></div>
                             <div className="menuLight"></div>
                         </div>
                     </div>
                     <div className="mainMenubox">
-                        <Link to="/readbook">
+                        <SmoothLink to="/readbook">
                             <div className="inner">
                                 <MainIcons iconName="mainIconRead" />
                                 <p>
@@ -64,7 +64,7 @@ function MainPage() {
                                     읽어주기
                                 </p>
                             </div>
-                        </Link>
+                        </SmoothLink>
                         <div className="menuShadow"></div>
                         <div className="menuLight"></div>
                     </div>

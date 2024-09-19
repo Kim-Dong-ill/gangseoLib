@@ -4,8 +4,12 @@ import imgFloor2 from "../../../../assets/images/imgFloor2.png";
 import imgFloor3 from "../../../../assets/images/imgFloor3.png";
 import imgFloor4 from "../../../../assets/images/imgFloor4.png";
 import imgFloor5 from "../../../../assets/images/imgFloor5.png";
+import imgFloor6 from "../../../../assets/images/imgFloor6.png";
 import FirestTitle from "../../../../components/TextBoxs/CntTitle";
 import CntWrap from "../../../../components/TextBoxs/CntWrap";
+import Floor3DigitalRoomData from "./FloorDetail/Floor3DigitalRoomData";
+import Floor3LanguageRoomData from "./FloorDetail/Floor3LanguageRoomData";
+import Floor4LearningRoomData from "./FloorDetail/Floor4LearningRoomData";
 import Floor4NotebookRoomData from "./FloorDetail/Floor4NotebookRoomData";
 import Floor4SelfStudyData from "./FloorDetail/Floor4SelfStudyData";
 const floorData = {
@@ -32,7 +36,7 @@ const floorData = {
                 name: "늘배움실",
                 coords: "800,434,827,435,827,462,854,433,1018,434,1018,690,800,690",
                 shape: "poly",
-                detail: () => <Floor4SelfStudyData />,
+                detail: () => <Floor4LearningRoomData />,
             },
         ],
     },
@@ -45,14 +49,14 @@ const floorData = {
                 name: "디지털자료실",
                 coords: "908,58,918,58,918,41,948,61,1216,56,1215,690,909,691,908,410,876,410,906,375,878,341,910,341",
                 shape: "poly",
-                detail: () => <Floor4SelfStudyData />,
+                detail: () => <Floor3DigitalRoomData />,
             },
             {
                 id: 2,
                 name: "어문학·간행물실",
                 coords: "69,58,246,58,246,301,465,301,512,264,510,299,584,301,585,344,618,347,587,381,616,416,586,413,586,689,69,690",
                 shape: "poly",
-                detail: () => <Floor4SelfStudyData />,
+                detail: () => <Floor3LanguageRoomData />,
             },
             {
                 id: 3,
@@ -146,22 +150,28 @@ const floorData = {
     },
     6: {
         name: "기타",
+        imageUrl: imgFloor6,
         areas: [
             {
                 id: 1,
                 name: "단체문고",
+                coords: "36,51,405,539",
+                shape: "rect",
                 detail: () => <Floor4SelfStudyData />,
-                // icon: { icon1 },
             },
             {
                 id: 2,
                 name: "등나무벤치(정원)",
+                coords: "452,50,821,538",
+                shape: "rect",
                 detail: () => <Floor4SelfStudyData />,
                 // icon: { icon2 },
             },
             {
                 id: 2,
                 name: "옥상공원(휴게실)",
+                coords: "872,49,1241,537",
+                shape: "rect",
                 detail: () => <Floor4SelfStudyData />,
                 // icon: { icon3 },
             },
