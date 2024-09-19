@@ -1,12 +1,14 @@
-.iconInfoContainer {
+.iconInfoWrap {
+  .iconInfoContainer {
     display: flex;
     align-items: center;
     gap: 30px;
-    width: 100%;
-    border: 1px solid #D4D4D4;
-    background-color: #F2F2F2;
+    width: 1500px;
+    border: 1px solid #d4d4d4;
+    background-color: #f2f2f2;
     border-radius: 10px;
     padding: 20px 50px;
     line-height: 64px;
     margin-bottom: 50px;
+  }
 }
