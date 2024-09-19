@@ -18,16 +18,19 @@ function Floor4SelfStudyData() {
                 <div>
                     <li className="textBoxType1">시설 소개</li>
                     <li className="imgBox">
-                        <img src={selfRoomImg01} alt="식당이미지1" />
-                        <img src={selfRoomImg02} alt="식당이미지2" />
-                        <img src={selfRoomImg03} alt="식당이미지3" />
+                        <img src={selfRoomImg01} alt="자율학습실 이미지1" />
+                        <img src={selfRoomImg02} alt="자율학습실 이미지2" />
+                        <img src={selfRoomImg03} alt="자율학습실 이미지3" />
                     </li>
                 </div>
                 <div>
                     <div className="inner">
                         <li className="textBoxType2">
-                            <span>안내 : </span>남·여 합실로 운영하고 있으며,
-                            이용자들의 편의를 위하여 좌석발급시스템을 운영하여
+                            <span>이용안내</span>
+                        </li>
+                        <li className="textBoxType3">
+                            남·여 합실로 운영하고 있으며, 이용자들의 편의를
+                            위하여 좌석발급시스템을 운영하여
                             <br />
                             좌석표를 발급하고 있습니다.
                         </li>
