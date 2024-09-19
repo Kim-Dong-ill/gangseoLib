@@ -12,8 +12,8 @@ function ReadEbook() {
   return (
     <SubBackWrap>
       <SubTopMenu />
-      <Title>{title}</Title>
-      <MenusScrollFrame children={<EbookSolution />} />
+      <Title></Title>
+      <MenusScrollFrame children={<EbookSolution title={title} />} />
     </SubBackWrap>
   );
 }

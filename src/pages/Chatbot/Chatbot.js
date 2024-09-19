@@ -10,11 +10,10 @@ function Chatbot() {
     <SubBackWrap>
       <DepthTopMenu />
       <Title>
-        챗봇
+        Hi,
         <span style={{ fontSize: 72, fontWeight: "bolder", color: "#EE2B74" }}>
-          &nbsp;에이미
+          &nbsp;에이미!
         </span>
-        와 대화해보세요!
       </Title>
       <MenusScrollFrame children={<ChatbotData />} />
     </SubBackWrap>
