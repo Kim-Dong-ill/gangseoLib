@@ -199,6 +199,180 @@ function Floor3DigitalRoomData() {
                         </li>
                     </div>
                 </div>
+                <div>
+                    <li className="textBoxType1">코너별 안내</li>
+                    <div className="inner">
+                        <li className="textBoxType2">
+                            <span>PC코너</span>
+                        </li>
+                        <table className="defaultTable">
+                            <thead>
+                                <tr>
+                                    <th width="30%" colSpan="2">
+                                        코너명
+                                    </th>
+                                    <th width="20%">좌석번호</th>
+                                    <th>이용서비스 및 설치프로그램</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="9">PC</td>
+                                    <td>
+                                        <span>예약PC</span>
+                                    </td>
+                                    <td>*</td>
+                                    <td className="textLeft">
+                                        · 예약 프로그램 설치, 예약 전용
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>
+                                            회원가입
+                                            <br />
+                                            자료검색
+                                        </span>
+                                    </td>
+                                    <td>*</td>
+                                    <td className="textLeft">
+                                        · 홈페이지 회원가입. 비도서 자료검색
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>
+                                            인터넷
+                                            <br />
+                                            자료편집
+                                        </span>
+                                    </td>
+                                    <td>
+                                        1-25
+                                        <br />
+                                        (6, 11, 21 제외)
+                                    </td>
+                                    <td className="textLeft">
+                                        <span>S/W</span> <br />
+                                        1~3번 PC: 한글2010, MS-OFFICE 2016
+                                        <br />
+                                        4~5번 PC: 한글2018, MS-OFFICE 2016
+                                        <br />
+                                        7~25번 PC: 한글2018, MS-OFFICE 2016
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>VOD</span>
+                                    </td>
+                                    <td>26</td>
+                                    <td className="textLeft">
+                                        · 영화, 드라마 등 OTT 서비스
+                                        <br />
+                                        (온라인 동영상) 전용
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>원문DB검색</span>
+                                    </td>
+                                    <td>6</td>
+                                    <td className="textLeft">
+                                        · 국회, 국가전자도서관 원문DB 검색
+                                        <br />
+                                        <span>S/W </span>한글2018, MS-OFFICE
+                                        2010
+                                        <br />※ 데스크 문의 신청
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>
+                                            {" "}
+                                            미디어
+                                            <br />
+                                            편집코너
+                                        </span>
+                                    </td>
+                                    <td>21</td>
+                                    <td className="textLeft">
+                                        <span>
+                                            S/W 이미지 편집프로그램 설치
+                                        </span>{" "}
+                                        <br />
+                                        1Photoshop, Lightroom, Premiere Pro,
+                                        After Effects, InDesign, Illstrator,
+                                        Dreamweaver…
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>장애인석</span>
+                                    </td>
+                                    <td></td>
+                                    <td className="textLeft">
+                                        <span>장애인 전용석</span>
+                                        <br />
+                                        <span>독서보조기기:</span> 터치 모니터,
+                                        빅키(Big-Key)키보드&키가드, 포인터
+                                        마우스, 높낮이 조절 책상, 점자정보
+                                        단말기, 보청기
+                                        <br />
+                                        <span>S/W </span>Sense Reader(화면낭독),
+                                        WIN10 돋보기, 한글2018, MS-OFFICE 2016
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>경로석</span>
+                                    </td>
+                                    <td>비예약석</td>
+                                    <td className="textLeft">
+                                        65세 이상 어르신을 위한 경로석
+                                        <br />
+                                        <span>S/W</span> 한글2018, MS-OFFICE2016
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span>즉시이용코너</span>
+                                    </td>
+                                    <td>11</td>
+                                    <td className="textLeft">
+                                        · 20분 이내로 예약없이 사용할 수
+                                        있습니다.
+                                        <br />· 뒷 사람을 위해 긴 시간 사용은
+                                        자제해주세요.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>노트북</td>
+                                    <td>
+                                        <span>노트북</span>
+                                    </td>
+                                    <td>3</td>
+                                    <td className="textLeft">
+                                        · 20분 이내로 예약없이 사용할 수
+                                        있습니다.
+                                        <br />· 뒷 사람을 위해 긴 시간 사용은
+                                        자제해주세요.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>영상</td>
+                                    <td>
+                                        <span>영상코너</span>
+                                    </td>
+                                    <td>1-3</td>
+                                    <td className="textLeft">
+                                        DVD 감상
+                                        <br />※ 영상코너 예약 후 사용가능
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
             {/* End:큰 단락 복사 사용시 */}
         </>
