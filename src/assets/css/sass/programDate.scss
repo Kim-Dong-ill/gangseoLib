@@ -80,6 +80,40 @@ $border-color: #868686;
     box-sizing: border-box;
   }
 }
+.contentInfos {
+  font-weight: 600;
+}
+.cntWrapBox {
+  .handleMonth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1560px;
+    padding: 20px;
+    .changeMonth {
+      width: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 50px;
+    }
+    .eventInfo {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      .infoInner {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 24px;
+        .infoText {
+          font-size: 24px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
 
 .left {
   border-left: none !important;
