@@ -5,8 +5,6 @@ import soundIcon from "../../../assets/icons/readbookIcon.svg";
 import SmoothLink from "../../../components/Layout/SmoothLink";
 
 function ReadBookData({ ebooks }) {
-  console.log(ebooks);
-
   return (
     <>
       {ebooks.map((item, idx) => {
