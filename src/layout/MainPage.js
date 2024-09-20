@@ -56,7 +56,7 @@ function MainPage() {
                     </div>
                     <div className="mainMenuRow">
                         <div className="mainMenubox">
-                            <SmoothLink to="/libabout">
+                            <SmoothLink to="/readbook">
                                 <div className="innerType2">
                                     <MainIcons iconName="mainIconRead" />
                                     <p>
@@ -69,7 +69,7 @@ function MainPage() {
                             <div className="menuLight"></div>
                         </div>
                         <div className="mainMenubox">
-                            <SmoothLink to="/libsetabout">
+                            <SmoothLink to="/">
                                 <div className="innerType2">
                                     <MainIcons iconName="mainIconSearch" />
                                     <p>
