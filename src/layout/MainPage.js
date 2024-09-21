@@ -84,6 +84,7 @@ function MainPage() {
                     </div> */}
                     {/* 한개짜리 */}
                     <div className="mainMenubox">
+
                         <SmoothLink to="/readbook">
                             <div className="inner">
                                 <MainIcons iconName="mainIconRead" />
@@ -102,6 +103,7 @@ function MainPage() {
             </MainBackWrap>
         </>
     );
+
 }
 
 export default MainPage;
