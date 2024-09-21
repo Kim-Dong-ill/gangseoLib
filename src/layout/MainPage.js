@@ -54,7 +54,7 @@ function MainPage() {
                             <div className="menuLight"></div>
                         </div>
                     </div>
-                    <div className="mainMenuRow">
+                    {/* <div className="mainMenuRow">
                         <div className="mainMenubox">
                             <SmoothLink to="/readbook">
                                 <div className="innerType2">
@@ -81,9 +81,9 @@ function MainPage() {
                             <div className="menuShadow"></div>
                             <div className="menuLight"></div>
                         </div>
-                    </div>
+                    </div> */}
                     {/* 한개짜리 */}
-                    {/* <div className="mainMenubox">
+                    <div className="mainMenubox">
                         <SmoothLink to="/readbook">
                             <div className="inner">
                                 <MainIcons iconName="mainIconRead" />
@@ -96,7 +96,7 @@ function MainPage() {
                         </SmoothLink>
                         <div className="menuShadow"></div>
                         <div className="menuLight"></div>
-                    </div> */}
+                    </div>
                     {/* 한개짜리 */}
                 </div>
             </MainBackWrap>
