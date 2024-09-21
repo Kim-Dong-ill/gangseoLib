@@ -69,7 +69,7 @@ function MainPage() {
                             <div className="menuLight"></div>
                         </div>
                         <div className="mainMenubox">
-                            <SmoothLink to="/">
+                            <SmoothLink to="/serchbook">
                                 <div className="innerType2">
                                     <MainIcons iconName="mainIconSearch" />
                                     <p>
@@ -84,7 +84,6 @@ function MainPage() {
                     </div> */}
                     {/* 한개짜리 */}
                     <div className="mainMenubox">
-
                         <SmoothLink to="/readbook">
                             <div className="inner">
                                 <MainIcons iconName="mainIconRead" />
@@ -103,7 +102,6 @@ function MainPage() {
             </MainBackWrap>
         </>
     );
-
 }
 
 export default MainPage;
