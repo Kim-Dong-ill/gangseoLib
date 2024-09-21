@@ -2,6 +2,8 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import "../../../assets/css/sass/serchBookData.scss";
 import serchIcon from "../../../assets/icons/tabler_search.svg";
+import serchBtnIcon from "../../../assets/icons/serchBtnIcon.svg";
+import serchAmiIcon from "../../../assets/icons/serchamiIcon.svg";
 
 function InputData() {
   const {
@@ -51,9 +53,19 @@ function InputData() {
         {errors.serchInput && (
           <div className="serchErr">{errors.serchInput.message}</div>
         )}
-        <button type="submit" className="serchBookBtn">
-          검색
-        </button>
+        <div className="serchBtnWrap">
+          {/* 에이미 버튼 */}
+          <button type="button" className="serchBookBtn">
+            <img src={serchAmiIcon} alt="" />
+            <div>에이미</div>
+          </button>
+
+          {/* 검색 버튼 */}
+          <button type="submit" className="serchBookBtn">
+            <img src={serchBtnIcon} alt="" />
+            <div>검색</div>
+          </button>
+        </div>
       </form>
     </>
   );
