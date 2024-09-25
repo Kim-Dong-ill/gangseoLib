@@ -16,34 +16,34 @@ import { DepthTopMenu } from "../../components/Layout/TopMenu";
 import LibaboutBtn from "../../components/LibaboutBtn";
 
 function libabout() {
-    const menuList = [
-        { title: "자료기증 관련 안내", icon: a1, link: "/Donation" },
-        { title: "와이파이 안내", icon: a2, link: "/Wifi" },
-        { title: "희망도서 신청 안내", icon: a3, link: "/bookrequest" },
-        { title: "택배 대출 서비스", icon: a4, link: "/DeliveryLoan" },
-        { title: "사물함 안내", icon: a5, link: "/Locker" },
-        { title: "대출증, 회원증 안내", icon: a6, link: "/MembershipCard" },
-        { title: "복사, 인쇄, 출력, 스캔", icon: a7, link: "/Printing" },
-        { title: "식당, 매점 운영 안내", icon: a8, link: "/Cafeteria" },
-        { title: "프로그램 안내", icon: a9, link: "/Program" },
-        { title: "주차장 이용 안내", icon: a10, link: "/Parking" },
-        { title: "시설 이용 안내", icon: a11, link: "/FacilityUse" },
-    ];
-    return (
-        <>
-            <SubBackWrap>
-                <DepthTopMenu />
-                <Title>도서관 안내</Title>
-                <div className="libabout">
-                    <div className="libContainer">
-                        {menuList.map((item, idx) => {
-                            return <LibaboutBtn key={idx} item={item} />;
-                        })}
-                    </div>
-                </div>
-            </SubBackWrap>
-        </>
-    );
+  const menuList = [
+    { title: "자료기증 관련 안내", icon: a1, link: "/Donation" },
+    { title: "와이파이 안내", icon: a2, link: "/Wifi" },
+    { title: "희망도서 신청 안내", icon: a3, link: "/bookrequest" },
+    { title: "택배 대출 서비스", icon: a4, link: "/DeliveryLoan" },
+    { title: "사물함 안내", icon: a5, link: "/Locker" },
+    { title: "대출증, 회원증 안내", icon: a6, link: "/MembershipCard" },
+    { title: "복사, 인쇄, 출력, 스캔", icon: a7, link: "/Printing" },
+    { title: "식당, 매점 운영 안내", icon: a8, link: "/Cafeteria" },
+    { title: "프로그램 안내", icon: a9, link: "/Program" },
+    { title: "주차장 이용 안내", icon: a10, link: "/Parking" },
+    { title: "시설 이용 안내", icon: a11, link: "/FacilityUse" },
+  ];
+  return (
+    <>
+      <SubBackWrap>
+        <DepthTopMenu />
+        <Title>도서관 안내</Title>
+        <div className="libabout">
+          <div className="libContainer">
+            {menuList.map((item, idx) => {
+              return <LibaboutBtn key={idx} item={item} />;
+            })}
+          </div>
+        </div>
+      </SubBackWrap>
+    </>
+  );
 }
 
 export default libabout;
