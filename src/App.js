@@ -4,7 +4,6 @@ import "../src/assets/css/index.css";
 import "../src/assets/styles/style.scss";
 import MainPage from "./layout/MainPage";
 import Chatbot from "./pages/Chatbot/Chatbot";
-import EventPage from "./pages/Event/EventPage";
 import Libabout from "./pages/Libabout/Libabout";
 import BookRequest from "./pages/Libabout/menus/BookRequest";
 import Cafeteria from "./pages/Libabout/menus/Cafeteria";
@@ -60,7 +59,8 @@ function App() {
                 ></Route>
 
                 {/* 이벤트 route */}
-                <Route path="/eventpage" element={<EventPage />}></Route>
+                {/* <Route path="/eventpage" element={<EventPage />}></Route> */}
+                <Route path="/eventpage" element={<Waiting />}></Route>
                 {/* 도서 검색 route */}
                 <Route path="/serchbook" element={<SerchBook />}></Route>
                 {/* 준비중 페이지 route */}
