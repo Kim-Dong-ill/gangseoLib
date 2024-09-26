@@ -4,6 +4,7 @@ import "../src/assets/css/index.css";
 import "../src/assets/styles/style.scss";
 import MainPage from "./layout/MainPage";
 import Chatbot from "./pages/Chatbot/Chatbot";
+import EventPage from "./pages/Event/EventPage";
 import Libabout from "./pages/Libabout/Libabout";
 import BookRequest from "./pages/Libabout/menus/BookRequest";
 import Cafeteria from "./pages/Libabout/menus/Cafeteria";
@@ -21,41 +22,52 @@ import SubTest from "./pages/LibSetAbout/SubTest";
 import ReadEbook from "./pages/ReadBook/data/ReadEbook";
 import Readbook from "./pages/ReadBook/ReadBook";
 import SerchBook from "./pages/SerchBook/SerchBook";
+import Waiting from "./pages/Waiting/Waiting";
 
 function App() {
-  return (
-    <div className="globalContainer">
-      <Routes>
-        {/* 메인 페이지 route */}
-        <Route path="/" element={<MainPage />}></Route>
-        <Route path="/chatbot" element={<Chatbot />}></Route>
-        <Route path="/libabout" element={<Libabout />}></Route>
-        <Route path="/libsetabout" element={<Libsetabout />}></Route>
-        <Route path="/readbook" element={<Readbook />}></Route>
-        {/* 서브 페이지 테스트 route */}
-        <Route path="/subTest" element={<SubTest />}></Route>
+    return (
+        <div className="globalContainer">
+            <Routes>
+                {/* 메인 페이지 route */}
+                <Route path="/" element={<MainPage />}></Route>
+                <Route path="/chatbot" element={<Chatbot />}></Route>
+                <Route path="/libabout" element={<Libabout />}></Route>
+                <Route path="/libsetabout" element={<Libsetabout />}></Route>
+                <Route path="/readbook" element={<Readbook />}></Route>
+                {/* 서브 페이지 테스트 route */}
+                <Route path="/subTest" element={<SubTest />}></Route>
 
-        {/* 도서관 안내 페이지 route */}
-        <Route path="/bookrequest" element={<BookRequest />}></Route>
-        <Route path="/Cafeteria" element={<Cafeteria />}></Route>
-        <Route path="/DeliveryLoan" element={<DeliveryLoan />}></Route>
-        <Route path="/Donation" element={<Donation />}></Route>
-        <Route path="/FacilityUse" element={<FacilityUse />}></Route>
-        <Route path="/Locker" element={<Locker />}></Route>
-        <Route path="/MembershipCard" element={<MembershipCard />}></Route>
-        <Route path="/Parking" element={<Parking />}></Route>
-        <Route path="/Printing" element={<Printing />}></Route>
-        <Route path="/Program" element={<Program />}></Route>
-        <Route path="/Wifi" element={<Wifi />}></Route>
+                {/* 도서관 안내 페이지 route */}
+                <Route path="/bookrequest" element={<BookRequest />}></Route>
+                <Route path="/Cafeteria" element={<Cafeteria />}></Route>
+                <Route path="/DeliveryLoan" element={<DeliveryLoan />}></Route>
+                <Route path="/Donation" element={<Donation />}></Route>
+                <Route path="/FacilityUse" element={<FacilityUse />}></Route>
+                <Route path="/Locker" element={<Locker />}></Route>
+                <Route
+                    path="/MembershipCard"
+                    element={<MembershipCard />}
+                ></Route>
+                <Route path="/Parking" element={<Parking />}></Route>
+                <Route path="/Printing" element={<Printing />}></Route>
+                <Route path="/Program" element={<Program />}></Route>
+                <Route path="/Wifi" element={<Wifi />}></Route>
 
-        {/* 도서 읽어주기 ebook route */}
-        <Route path={`/readbook/ebook/:title`} element={<ReadEbook />}></Route>
+                {/* 도서 읽어주기 ebook route */}
+                <Route
+                    path={`/readbook/ebook/:title`}
+                    element={<ReadEbook />}
+                ></Route>
 
-        {/* 도서 검색 route */}
-        <Route path="/serchbook" element={<SerchBook />}></Route>
-      </Routes>
-    </div>
-  );
+                {/* 이벤트 route */}
+                <Route path="/eventpage" element={<EventPage />}></Route>
+                {/* 도서 검색 route */}
+                <Route path="/serchbook" element={<SerchBook />}></Route>
+                {/* 준비중 페이지 route */}
+                <Route path="/waiting" element={<Waiting />}></Route>
+            </Routes>
+        </div>
+    );
 }
 
 export default App;
