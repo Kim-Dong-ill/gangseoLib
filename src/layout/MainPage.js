@@ -13,7 +13,8 @@ function MainPage() {
   return (
     <>
       <MainBackWrap>
-        <div>
+        {/* 번역 예시 버튼 */}
+        {/* <div>
           <button onClick={() => changeLanguage("korean")}>한국어</button>
           <button onClick={() => changeLanguage("english")}>English</button>
           <button onClick={() => changeLanguage("chinese")}>中文</button>
@@ -21,7 +22,8 @@ function MainPage() {
           <button onClick={() => changeLanguage("vietnamese")}>
             Tiếng Việt
           </button>
-        </div>
+        </div> */}
+        {/* 번역 예시 버튼 */}
         <h1>Main Page</h1>
         <div className="mainMenuWrap">
           <div className="mainMenubox">
